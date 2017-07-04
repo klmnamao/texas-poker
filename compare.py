@@ -6,6 +6,7 @@ def start(data1,data2):
      player2 = []
      common = []
      lst = sample(range(0,49),7)
+     #21 means 2 spade, 22 means 2 heart, 23 means 2 club, 24 means 2 diamond  
      lib = [21,22,23,24,31,32,33,34,41,42,43,44,51,52,53,54,61,62,63,64,71,72,73,74,81,82,83,84,91,92,93,94,101,102,103,104,111,112,113,114,121,122,123,124,131,132,133,134,141,142,143,144]
      lib.remove(data1)
      lib.remove(data2)
